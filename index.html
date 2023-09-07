@@ -1,0 +1,74 @@
+<head>
+<title>测试页面</title>
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<style>
+body
+{
+margin:0px;padding:0px;
+}
+li,ul
+{
+text-decoration: none;	
+list-style: none;
+	}
+.header li
+	{
+		margin-left:100px;
+	}
+	.header
+	{
+		line-height: 40px;
+	}
+	.menu
+	{
+		line-height: 45px;
+		background: #184799;
+		width: 1550px;
+		height:45px;
+		margin-top: 20px;
+		color:white;
+		padding-left:100px;
+	}
+	.menu li
+	{
+		width:180px;
+		text-align: center;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+	.menu li:hover
+	{
+		background: #669EFF;
+	}
+	.menu ul
+	{
+		display:flex;
+	}
+</style>
+</head>
+<body>
+	<div style="position: absolute;left: 0px;top:0px;z-index:-1">
+		<img src="images/Banner.jpg" width="1550">
+	</div>
+	<div class="header">
+		<ul style="display:flex">
+			<li>网页源码</li>
+			<li>资源下载</li>
+		</ul>
+	</div>
+	<div style="text-align: center;margin-top: 220px;height:60px;">
+		<span style="display:block"><form action="https://baidu.com/s"><input name="wd" placeholder="输入关键字进行搜索" style="width:320px;height:36px;position:absolute;left:590px;top:274px"><button type="submit" style="width:45px;height:36px;border:#3A3A3A 1px solid;border-radius: 0px;position:absolute;left:910px;top:274px;" >搜索</button></form></span>
+	</div>
+	<div class="menu">
+		<ul>
+			<li>首页</li>
+			<li>政务公开</li>
+			<li>新闻动态</li>
+			<li>政务服务</li>
+			<li>互动交流</li>
+			<li>数据发布</li>
+			<li>概况</li>
+		</ul>
+	</div>
+</body>
